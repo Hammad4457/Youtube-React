@@ -1,0 +1,40 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  height: 100vh;
+}
+
+h1,
+label1,
+input,
+button {
+  margin-top: 35px;
+}
+label1 {
+  font-size: x-large;
+  color: BLACK;
+}
+
+input {
+  width: 300px;
+  border: 3px solid black;
+  color: black;
+  background-color: aliceblue;
+  padding: 10px;
+  padding-left: 200px;
+}
+
+button {
+  margin-top: 10px;
+  margin-left: 0;
+  border: 3px solid black;
+  cursor: pointer;
+  width: 100px;
+  background-color: rgb(4, 72, 4);
+}
+
+* {
+  background-color: rgba(128, 128, 128);
+}
